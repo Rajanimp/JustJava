@@ -1,0 +1,64 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Coffee Nook</string>
+
+    <string name="initial" translatable="false">1</string>
+    <string name="rupee_symbol" translatable="false">\u20B9</string>
+    <string name="number" translatable="false">%1$d</string>
+    <string name="plus_sign" translatable="false">+</string>
+    <string name="minus_sign" translatable="false">-</string>
+
+    <!--Header text for the list of toppings [CHAR LIMIT = 20]-->
+    <string name="toppings">Toppings</string>
+
+    <!--Header text for quantity [CHAR LIMIT = 20]-->
+    <string name="quantity">Quantity</string>
+
+    <!--CheckBox text for whipped cream [CHAR LIMIT = 20]-->
+    <string name="whipped_cream">Whipped Cream</string>
+
+    <!--CheckBox text for chocolate [CHAR LIMIT = 20]-->
+    <string name="chocolate">Chocolate</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="hint"><font size="20">Enter your name</font></string>
+
+    <!-- Order button text [CHAR LIMIT=10] -->
+    <string name="order">Order</string>
+
+    <!-- Reset button text [CHAR LIMIT=10] -->
+    <string name="reset">Reset</string>
+
+    <!--Toast message for too much coffees-->
+    <string name="too_much_coffees">You cannot order more than 100 cups of coffee!!!</string>
+
+    <!--Toast message for too few coffees-->
+    <string name="too_few_coffees">You cannot order less than 1 cup of coffee!!!</string>
+
+    <!--Affirmative answer text-->
+    <string name="yes">Yes</string>
+
+    <!--Negative answer text-->
+    <string name="no">No</string>
+
+    <!--Name for the order summary in the format "Name: Amy" where Amy is the user's name [CHAR LIMIT=NONE] -->
+    <string name="order_summary_name">Name: <xliff:g id="name" example="Amy">%1$s</xliff:g></string>
+
+    <!--Quantity of coffee cups for the order summary in the format "Quantity: 2", where 2 is the number of cups ordered. [CHAR LIMIT=NONE]-->
+    <string name="order_summary_quantity">Quantity: <xliff:g id="quantity" example="2">%1$d</xliff:g></string>
+
+    <!--Total price for the order summary in the format "Total: ₹10" where ₹10 is the price. [CHAR LIMIT=NONE]-->
+    <string name="order_summary_price">Total: <xliff:g id="price" example="₹10">%1$s</xliff:g></string>
+
+    <!--Whipped cream topping for the order summary in the format "Add whipped cream? Yes" or "Add whipped cream? No". [CHAR LIMIT=NONE]-->
+    <string name="order_summary_whipped_cream">Add Whipped Cream? <xliff:g id="addWhippedCream" example="Yes">%s</xliff:g></string>
+
+    <!--Chocolate topping for the order summary in the format "Add chocolate? Yes" or "Add chocolate? No". [CHAR LIMIT=NONE] -->
+    <string name="order_summary_chocolate">Add Chocolate? <xliff:g id="addChocolate" example="Yes">%s</xliff:g></string>
+
+    <!-- Thank you message for the order summary. [CHAR LIMIT=NONE] -->
+    <string name="thank_you">Thank You!</string>
+
+    <!--Subject for email in the format "Coffee order for Amy" where Amy is the user's name [CHAR LIMIT=NONE] -->
+    <string name="email_subject">Coffee order for <xliff:g id="name" example="Amy">%s</xliff:g></string>
+</resources>

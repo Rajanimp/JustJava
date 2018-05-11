@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/coffee_table" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_vertical2"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/title_txt_size"
+            android:padding="@dimen/padding_title"
+            />
+
+        <ImageView
+            android:id="@+id/img_coffee_cup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/coffee_owl" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_coffee_cup"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="@dimen/margin_horizontal2"
+            android:layout_marginStart="@dimen/margin_horizontal2"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etxt_name"
+                style="@style/MyTextViewStyle"
+                android:layout_width="match_parent"
+                android:hint="@string/hint"
+                android:inputType="textCapWords"
+                android:textColorHint="@color/colorHint"
+                />
+
+            <TextView
+                style="@style/MyTextViewStyle"
+                android:layout_marginTop="@dimen/margin_vertical"
+                android:text="@string/toppings"
+                android:textAllCaps="true" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/cb_whipped_cream"
+                    style="@style/MyCheckBoxStyle"
+                    android:text="@string/whipped_cream"
+                    />
+
+                <CheckBox
+                    android:id="@+id/cb_chocolate"
+                    style="@style/MyCheckBoxStyle"
+                    android:text="@string/chocolate"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/MyTextViewStyle"
+                android:layout_marginTop="@dimen/margin_vertical"
+                android:text="@string/quantity"
+                android:textAllCaps="true" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_decrement"
+                    style="@style/MyButtonStyle1"
+                    android:onClick="decrement"
+                    android:text="@string/minus_sign" />
+
+                <TextView
+                    android:id="@+id/quantity_text_view"
+                    style="@style/MyTextViewStyle"
+                    android:layout_marginEnd="@dimen/margin_horizontal"
+                    android:layout_marginStart="@dimen/margin_horizontal"
+                    android:text="@string/initial" />
+
+                <Button
+                    android:id="@+id/btn_increment"
+                    style="@style/MyButtonStyle1"
+                    android:onClick="increment"
+                    android:text="@string/plus_sign" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_order"
+                    style="@style/MyButtonStyle2"
+                    android:text="@string/order" />
+
+                <Button
+                    android:id="@+id/btn_reset"
+                    style="@style/MyButtonStyle2"
+                    android:layout_marginStart="@dimen/margin_vertical"
+                    android:text="@string/reset" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

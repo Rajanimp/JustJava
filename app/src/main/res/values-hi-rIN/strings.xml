@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">कॉफी नूक</string>
+    <string name="order">ऑर्डर करें</string>
+    <string name="toppings">ऊपरी परत</string>
+    <string name="quantity">मात्रा</string>
+    <string name="whipped_cream">फेंटी हुई मलाई</string>
+    <string name="chocolate">चॉकलेट</string>
+    <string name="hint"><font size="20">अपना नाम लिखें</font></string>
+    <string name="reset">रीसेट करें</string>
+    <string name="too_much_coffees">कृपया 100 से अधिक कॉफी ऑर्डर ना करें!</string>
+    <string name="too_few_coffees">कम से कम ऑर्डर 1 कॉफी की है!</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+    <string name="order_summary_name">नाम: <xliff:g id="name" example="Amy">%1$s</xliff:g></string>
+    <string name="order_summary_whipped_cream">क्रीम मिलाएँ? <xliff:g id="addWhippedCream" example="Yes">%s</xliff:g></string>
+    <string name="order_summary_chocolate">चॉकलेट मिलाएँ? <xliff:g id="addChocolate" example="Yes">%s</xliff:g></string>
+    <string name="order_summary_quantity">मात्रा: <xliff:g id="quantity" example="2">%1$d</xliff:g></string>
+    <string name="order_summary_price">कुल: <xliff:g id="price" example="₹10">%1$s</xliff:g></string>
+    <string name="thank_you">धन्यवाद!</string>
+    <string name="email_subject"><xliff:g id="name" example="Amy">%1$s</xliff:g> के लिए कॉफी ऑर्डर</string>
+</resources>

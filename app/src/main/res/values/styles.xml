@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyTextViewStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/heading_txt_size</item>
+    </style>
+
+    <style name="MyButtonStyle1">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">48dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/btn_background</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MyButtonStyle2">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/btn_txt_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/btn_background</item>
+    </style>
+
+    <style name="MyCheckBoxTheme" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorSecondary">@color/colorAccent</item>
+    </style>
+
+    <style name="MyCheckBoxStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/margin_horizontal2</item>
+        <item name="android:layout_marginEnd">@dimen/margin_horizontal2</item>
+        <item name="android:layout_marginTop">@dimen/margin_horizontal</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:checked">false</item>
+        <item name="android:textSize">@dimen/btn_txt_size</item>
+        <item name="android:paddingStart">@dimen/padding_checkbox</item>
+        <item name="android:paddingEnd">@dimen/padding_zero</item>
+        <item name="android:theme">@style/MyCheckBoxTheme</item>
+    </style>
+
+</resources>

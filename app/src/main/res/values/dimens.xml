@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_vertical">16dp</dimen>
+    <dimen name="margin_vertical2">8dp</dimen>
+    <dimen name="margin_horizontal">16dp</dimen>
+    <dimen name="margin_horizontal2">48dp</dimen>
+    <dimen name="btn_txt_size">16sp</dimen>
+    <dimen name="heading_txt_size">20sp</dimen>
+    <dimen name="padding_checkbox">16dp</dimen>
+    <dimen name="padding_zero">0dp</dimen>
+    <dimen name="title_txt_size">44sp</dimen>
+    <dimen name="padding_title">5dp</dimen>
+</resources>
